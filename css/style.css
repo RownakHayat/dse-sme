@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.sme-menu{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.trade-news{
+    margin: 15px;
+}
+.last-trade{
+    background:  rgb(219, 217, 217);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.expand-menu{
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    
+}
+.expand-icon{
+    color: goldenrod;
+    font-size: 20px;
+}
+.time-per{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.percentage{
+    color: aqua;
+}
+.time-rating-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.time-icon{
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 0px 5px 0 0px;
+
+}
+.rating-icon{
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 0px 5px 0px 0px;
+}
+.clock-icon{
+    color: red;
+}
+.heart-icon{
+    color: blue;
+}
+
+/* table-header */
+.scor-table-body, td, tfoot, th, tr {
+    border-style: none;
+}
+.table >:not(caption)>*>* {
+    padding: 0.5rem 4.5rem 0 0;
+}
+.tr-header, .last-date, .n-a{
+    font-size: 14px;
+    color: rgb(189, 187, 187);
+    font-weight: normal;
+}
+.scor td {
+    font-size: 17px;
+    font-weight: 500;
+}
+.chart-icon{
+    color: goldenrod;
+}
+/* record-header style */
+.record-header{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 3px solid rgb(189, 187, 187);
+    border-top: 3px solid rgb(189, 187, 187) ;
+}
+.share-details{
+    margin-top: .5rem;
+}
+.record-date{
+    display: flex;
+    padding-left: 23rem;
+}
+.share-date{
+    color: rgb(189, 187, 187);
+}
+
+/* Price table style */
+.price-header{
+    background:  rgb(219, 217, 217);
+    box-shadow: 0px 0px 3px 3px gainsboro;
+}
+.price-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.price-btn{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 2rem;
+    background: none;
+}
+.price-btn:hover{
+    background-color: #fff;
+}
+.list-type-btn{
+    box-sizing: border-box;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    padding:5px 2rem;
+    color: none;
+}
+.types{
+    list-style: none;
+    display: none;
+}
+.list-item {
+    box-sizing: border-box;
+    border-right: 1px solid rgb(189, 187, 187);
+}
+.list-item:last-child{
+    border-right: none;
+}
+
